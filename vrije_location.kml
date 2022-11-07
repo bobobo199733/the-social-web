@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>VrijeUniversity</name>
+    <description>This is the location of Vrije University Amsterdam.</description>
+    <Point>
+      <coordinates>52.333730555888685, 4.8656233385210035</coordinates>
+    </Point>
+  </Placemark>
+</kml>
