@@ -1,6 +1,12 @@
 import json
+import re
 
+import matplotlib.pyplot as plt
+import nltk
+import pandas as pd
 import tweepy
+from textblob import TextBlob
+from wordcloud import WordCloud
 
 TWITTER_API_KEY = "8r4bvIuCRsNzrbdPsCqaUoVv9"
 TWITTER_API_SECRET = "JptZjnN991736aSssz4F8RUaOPtTHEOejNyDGb064KAjPJ2GMU"
