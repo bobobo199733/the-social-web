@@ -22,7 +22,7 @@ total_tweets = 100000
 # Create the API object
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
-hashtag = "#RIPtwitter -filter:retweets"
+hashtag = "Elon Musk --start-time:2022-10-28"
 results = tweepy.Cursor(
     api.search_tweets, q=hashtag, lang="en", tweet_mode="extended"
 ).items(total_tweets)
